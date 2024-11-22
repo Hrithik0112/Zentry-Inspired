@@ -1,12 +1,11 @@
-
-import React from 'react'
+import React from "react";
+import Hero from "./components/Hero";
 function App() {
-
   return (
-    <>
-      <h1 className='font-bold text-3xl text-purple-600 text-center font-circular-web'>Welcome to Zentry Inspiration</h1> 
-    </>
-  )
+    <main className="min-h-screen w-screen overflow-x-hidden relative">
+      <Hero />
+    </main>
+  );
 }
 
-export default App
+export default App;
