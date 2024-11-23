@@ -120,7 +120,7 @@ const Hero = () => {
             className="absolute-center size-64 absolute z-20 invisible object-cover object-center"
           />
           <video
-            autoPlay
+            // autoPlay
             loop
             muted
             className="absolute left-0 top-0 size-full object-cover object-center"
